@@ -51,7 +51,7 @@
     if (item.inputImage) {
       return `
         <div class="modal-product-input-frame">
-          <img src="${item.inputImage}" alt="" class="modal-product-input-img modal-product-zoomable" loading="lazy"
+          <img src="${item.inputImage}" alt="" class="modal-product-input-img modal-product-zoomable" loading="lazy" decoding="async" fetchpriority="low"
             onerror="this.classList.add('modal-product-input-img--hidden'); this.closest('.modal-product-input-frame').classList.add('modal-product-input-frame--broken')">
         </div>`;
     }
@@ -261,7 +261,7 @@
                   <div class="modal-product-output-track">
                     ${outputs.map((src) => `
                       <figure class="modal-product-output-fig">
-                        <img src="${src}" alt="" class="modal-product-output-img modal-product-zoomable" loading="lazy"
+                        <img src="${src}" alt="" class="modal-product-output-img modal-product-zoomable" loading="lazy" decoding="async" fetchpriority="low"
                           onerror="this.closest('.modal-product-output-fig').style.display='none'">
                       </figure>
                     `).join('')}
