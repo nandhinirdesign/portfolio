@@ -197,7 +197,7 @@
                 <h2 class="section-title reveal">Where AI meets<br /><em>artistry</em></h2>
                 <div class="about-bio reveal">
                     <p>
-                        I'm a Senior Image Editor and AI Visual Creator based in Chennai, with a passion
+                        I'm a Image Editor and AI Visual Creator based in Chennai, with a passion
                         for pushing the boundaries of what's possible when AI tools meet a trained
                         creative eye.
                     </p>
@@ -285,54 +285,67 @@
     <!-- PORTFOLIO -->
     <section class="portfolio" id="portfolio">
         <div class="section-label reveal">Work</div>
-        <h2 class="section-title reveal">Portfolio <em>gallery</em></h2>
+        <h2 class="section-title reveal">Portfolio <em>categories</em></h2>
         <div class="portfolio-note reveal">
             <span>✦</span>
-            Portfolio images will be added by Nandhini — placeholders shown below
+            Click on a category to explore projects
         </div>
-        <div class="portfolio-grid reveal">
-            <div class="portfolio-card">
-                <div class="portfolio-card-inner">
-                    <div class="port-icon">🖼</div>
-                    <div class="port-cat">Fashion &amp; E-commerce</div>
-                    <div class="port-desc">AI-generated fashion visuals<br />with manual refinement</div>
+        <div class="portfolio-grid reveal" id="portfolio-grid">
+            <div class="portfolio-card category-card" data-category="menswear">
+                <div class="category-card-bg" style="background-image: url('./images/portfolio/menswear/cover.jpg');"></div>
+                <div class="category-card-scrim" aria-hidden="true"></div>
+                <div class="category-card-caption">
+                    <span class="category-card-title">Menswear</span>
                 </div>
-                <div class="upload-badge">Add image</div>
             </div>
-            <div class="portfolio-card">
-                <div class="portfolio-card-inner">
-                    <div class="port-icon">✨</div>
-                    <div class="port-cat">AI Generation</div>
-                    <div class="port-desc">Prompt-engineered<br />creative outputs</div>
+            <div class="portfolio-card category-card" data-category="womenswear">
+                <div class="category-card-bg" style="background-image: url('./images/portfolio/womenswear/cover.jpeg');"></div>
+                <div class="category-card-scrim" aria-hidden="true"></div>
+                <div class="category-card-caption">
+                    <span class="category-card-title">Womenswear</span>
                 </div>
-                <div class="upload-badge">Add image</div>
             </div>
-            <div class="portfolio-card">
-                <div class="portfolio-card-inner">
-                    <div class="port-icon">🎨</div>
-                    <div class="port-cat">Product Enhancement</div>
-                    <div class="port-desc">High-end retouching<br />&amp; color correction</div>
+            <div class="portfolio-card category-card" data-category="kidswear">
+                <div class="category-card-bg" style="background-image: url('./images/portfolio/kidswear/cover.png');"></div>
+                <div class="category-card-scrim" aria-hidden="true"></div>
+                <div class="category-card-caption">
+                    <span class="category-card-title">Kidswear</span>
                 </div>
-                <div class="upload-badge">Add image</div>
             </div>
-            <div class="portfolio-card">
-                <div class="portfolio-card-inner">
-                    <div class="port-icon">▶</div>
-                    <div class="port-cat">Video Generation</div>
-                    <div class="port-desc">AI video creation<br />with Seedance &amp; Kling</div>
+            <div class="portfolio-card category-card" data-category="accessories">
+                <div class="category-card-bg category-card-bg--placeholder category-card-bg--accessories"></div>
+                <div class="category-card-scrim" aria-hidden="true"></div>
+                <div class="category-card-caption">
+                    <span class="category-card-title">Accessories</span>
                 </div>
-                <div class="upload-badge">Add image</div>
             </div>
-            <div class="portfolio-card">
-                <div class="portfolio-card-inner">
-                    <div class="port-icon">🌿</div>
-                    <div class="port-cat">Brand Campaigns</div>
-                    <div class="port-desc">Tommy Hilfiger,<br />Calvin Klein &amp; more</div>
+            <div class="portfolio-card category-card" data-category="footwear">
+                <div class="category-card-bg category-card-bg--placeholder category-card-bg--footwear"></div>
+                <div class="category-card-scrim" aria-hidden="true"></div>
+                <div class="category-card-caption">
+                    <span class="category-card-title">Footwear</span>
                 </div>
-                <div class="upload-badge">Add image</div>
             </div>
         </div>
     </section>
+
+    <!-- PORTFOLIO MODAL -->
+    <div id="portfolio-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" role="button" tabindex="0" aria-label="Close portfolio">&times;</span>
+            <div id="modal-header">
+                <h3 id="modal-title"></h3>
+            </div>
+            <div id="modal-body" class="modal-scrollable">
+                <!-- Content will be populated by JS -->
+            </div>
+            <div id="modal-image-lightbox" class="modal-image-lightbox" role="dialog" aria-modal="true"
+                aria-label="Image preview" hidden>
+                <button type="button" class="modal-image-lightbox-close" aria-label="Close preview">&times;</button>
+                <img alt="" class="modal-image-lightbox-img">
+            </div>
+        </div>
+    </div>
 
     <!-- BRANDS -->
     <section class="brands" id="brands">
