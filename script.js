@@ -97,139 +97,139 @@
   const portfolioData = {
     kidswear: [
       {
-        inputImage: "./images/portfolio/kidswear/1/Input.jpeg",
+        inputImage: "./images/Portfolio_1/kidswear/1/Input.jpeg",
         outputs: [
-          "./images/portfolio/kidswear/1/1.png",
-          "./images/portfolio/kidswear/1/2.png",
-          "./images/portfolio/kidswear/1/3.png"
+          "./images/Portfolio_1/kidswear/1/1.png",
+          "./images/Portfolio_1/kidswear/1/2.png",
+          "./images/Portfolio_1/kidswear/1/3.png"
         ]
       },
       {
-        inputImage: "./images/portfolio/kidswear/2/Input.jpeg",
+        inputImage: "./images/Portfolio_1/kidswear/2/Input.jpeg",
         outputs: [
-          "./images/portfolio/kidswear/2/1.png",
-          "./images/portfolio/kidswear/2/2.png",
-          "./images/portfolio/kidswear/2/3.jpeg"
+          "./images/Portfolio_1/kidswear/2/1.png",
+          "./images/Portfolio_1/kidswear/2/2.png",
+          "./images/Portfolio_1/kidswear/2/3.jpeg"
         ]
       },
       {
-        inputImage: "./images/portfolio/kidswear/3/Input.jpeg",
+        inputImage: "./images/Portfolio_1/kidswear/3/Input.jpeg",
         outputs: [
-          "./images/portfolio/kidswear/3/1.png",
-          "./images/portfolio/kidswear/3/2.png",
-          "./images/portfolio/kidswear/3/3.png"
+          "./images/Portfolio_1/kidswear/3/1.png",
+          "./images/Portfolio_1/kidswear/3/2.png",
+          "./images/Portfolio_1/kidswear/3/3.png"
         ]
       },
       {
-        inputImage: "./images/portfolio/kidswear/4/Input.jpeg",
+        inputImage: "./images/Portfolio_1/kidswear/4/Input.jpeg",
         outputs: [
-          "./images/portfolio/kidswear/4/1.jpeg",
-          "./images/portfolio/kidswear/4/2.jpeg"
+          "./images/Portfolio_1/kidswear/4/1.jpeg",
+          "./images/Portfolio_1/kidswear/4/2.jpeg"
         ]
       }
     ],
     menswear: [
       {
-        inputImage: "./images/portfolio/menswear/1/Input.jpg",
+        inputImage: "./images/Portfolio_1/menswear/1/Input.jpg",
         outputs: [
-          "./images/portfolio/menswear/1/1.jpg",
-          "./images/portfolio/menswear/1/2.jpg",
-          "./images/portfolio/menswear/1/3.jpg"
+          "./images/Portfolio_1/menswear/1/1.jpg",
+          "./images/Portfolio_1/menswear/1/2.jpg",
+          "./images/Portfolio_1/menswear/1/3.jpg"
         ]
       },
       {
-        inputImage: "./images/portfolio/menswear/2/Input.jpeg",
+        inputImage: "./images/Portfolio_1/menswear/2/Input.jpeg",
         outputs: [
-          "./images/portfolio/menswear/2/1.jpg",
-          "./images/portfolio/menswear/2/2.jpg",
-          "./images/portfolio/menswear/2/3.jpg"
+          "./images/Portfolio_1/menswear/2/1.jpg",
+          "./images/Portfolio_1/menswear/2/2.jpg",
+          "./images/Portfolio_1/menswear/2/3.jpg"
         ]
       },
       {
-        inputImage: "./images/portfolio/menswear/3/Input.jpg",
+        inputImage: "./images/Portfolio_1/menswear/3/Input.jpg",
         outputs: [
-          "./images/portfolio/menswear/3/1.png",
-          "./images/portfolio/menswear/3/2.png",
-          "./images/portfolio/menswear/3/3.png"
+          "./images/Portfolio_1/menswear/3/1.png",
+          "./images/Portfolio_1/menswear/3/2.png",
+          "./images/Portfolio_1/menswear/3/3.png"
         ]
       },
       {
-        inputImage: "./images/portfolio/menswear/4/Input.jpg",
+        inputImage: "./images/Portfolio_1/menswear/4/Input.jpg",
         outputs: [
-          "./images/portfolio/menswear/4/1.jpg",
-          "./images/portfolio/menswear/4/2.jpg",
-          "./images/portfolio/menswear/4/3.jpeg"
+          "./images/Portfolio_1/menswear/4/1.jpg",
+          "./images/Portfolio_1/menswear/4/2.jpg",
+          "./images/Portfolio_1/menswear/4/3.jpeg"
         ]
       }
     ],
     womenswear: [
       {
-        inputImage: "./images/portfolio/womenswear/1/Input.jpeg",
+        inputImage: "./images/Portfolio_1/womenswear/1/Input.jpeg",
         outputs: [
-          "./images/portfolio/womenswear/1/1.jpeg",
-          "./images/portfolio/womenswear/1/2.jpeg",
-          "./images/portfolio/womenswear/1/3.jpeg"
+          "./images/Portfolio_1/womenswear/1/1.jpeg",
+          "./images/Portfolio_1/womenswear/1/2.jpeg",
+          "./images/Portfolio_1/womenswear/1/3.jpeg"
         ]
       },
       {
-        inputImage: "./images/portfolio/womenswear/2/Input.jpg",
+        inputImage: "./images/Portfolio_1/womenswear/2/Input.jpg",
         outputs: [
-          "./images/portfolio/womenswear/2/1.jpeg",
-          "./images/portfolio/womenswear/2/2.jpeg",
-          "./images/portfolio/womenswear/2/3.jpeg"
+          "./images/Portfolio_1/womenswear/2/1.jpg",
+          "./images/Portfolio_1/womenswear/2/2.jpg",
+          "./images/Portfolio_1/womenswear/2/3.jpg"
         ]
       },
       {
-        inputImage: "./images/portfolio/womenswear/3/Input.jpg",
+        inputImage: "./images/Portfolio_1/womenswear/3/Input.jpg",
         outputs: [
-          "./images/portfolio/womenswear/3/1.jpg",
-          "./images/portfolio/womenswear/3/2.jpg",
-          "./images/portfolio/womenswear/3/3.jpg",
-          "./images/portfolio/womenswear/3/4.jpg"
+          "./images/Portfolio_1/womenswear/3/1.jpg",
+          "./images/Portfolio_1/womenswear/3/2.jpg",
+          "./images/Portfolio_1/womenswear/3/3.jpg",
+          "./images/Portfolio_1/womenswear/3/4.jpg"
         ]
       },
       {
-        inputImage: "./images/portfolio/womenswear/4/Input.jpg",
+        inputImage: "./images/Portfolio_1/womenswear/4/Input.jpg",
         outputs: [
-          "./images/portfolio/womenswear/4/1.jpg",
-          "./images/portfolio/womenswear/4/2.jpg",
-          "./images/portfolio/womenswear/4/3.jpg"
+          "./images/Portfolio_1/womenswear/4/1.jpeg",
+          "./images/Portfolio_1/womenswear/4/2.jpeg",
+          "./images/Portfolio_1/womenswear/4/3.jpeg"
         ]
       },
       {
-        inputImage: "./images/portfolio/womenswear/5/Input.jpg",
+        inputImage: "./images/Portfolio_1/womenswear/5/Input.jpg",
         outputs: [
-          "./images/portfolio/womenswear/5/1.jpg",
-          "./images/portfolio/womenswear/5/2.jpg",
-          "./images/portfolio/womenswear/5/3.jpg"
+          "./images/Portfolio_1/womenswear/5/1.jpg",
+          "./images/Portfolio_1/womenswear/5/2.jpg",
+          "./images/Portfolio_1/womenswear/5/3.jpg"
         ]
       },
       {
-        inputImage: "./images/portfolio/womenswear/6/Input.jpeg",
+        inputImage: "./images/Portfolio_1/womenswear/6/Input.jpeg",
         outputs: [
-          "./images/portfolio/womenswear/6/1.jpeg",
-          "./images/portfolio/womenswear/6/2.jpeg",
-          "./images/portfolio/womenswear/6/3.jpeg"
+          "./images/Portfolio_1/womenswear/6/1.jpg",
+          "./images/Portfolio_1/womenswear/6/2.jpg",
+          "./images/Portfolio_1/womenswear/6/3.jpg"
         ]
       },
       {
-        inputImage: "./images/portfolio/womenswear/7/Input.jpeg",
+        inputImage: "./images/Portfolio_1/womenswear/7/Input.jpeg",
         outputs: [
-          "./images/portfolio/womenswear/7/1.jpeg",
-          "./images/portfolio/womenswear/7/2.jpeg",
-          "./images/portfolio/womenswear/7/3.jpeg"
+          "./images/Portfolio_1/womenswear/7/1.jpg",
+          "./images/Portfolio_1/womenswear/7/2.jpg",
+          "./images/Portfolio_1/womenswear/7/3.jpg"
         ]
       },
       {
-        inputImage: "./images/portfolio/womenswear/8/Input.jpeg",
+        inputImage: "./images/Portfolio_1/womenswear/8/Input.jpeg",
         outputs: [
-          "./images/portfolio/womenswear/8/1.jpeg",
-          "./images/portfolio/womenswear/8/2.jpeg",
-          "./images/portfolio/womenswear/8/3.jpeg"
+          "./images/Portfolio_1/womenswear/8/1.jpg",
+          "./images/Portfolio_1/womenswear/8/2.jpg",
+          "./images/Portfolio_1/womenswear/8/3.jpg"
         ]
       }
     ]
-  };
+};
 
   // Open modal when category is clicked
   document.querySelectorAll('.category-card').forEach(card => {
