@@ -93,143 +93,234 @@
     document.body.style.overflow = 'auto';
   }
 
-  // Sample portfolio data - replace with actual data
+  // Paths match images/p-1 on disk (case-sensitive on GitHub Pages)
   const portfolioData = {
     kidswear: [
       {
-        inputImage: "./images/Portfolio_1/kidswear/1/Input.jpeg",
+        inputImage: "./images/portfolio/Kidswear/1/Input.jpeg",
         outputs: [
-          "./images/Portfolio_1/kidswear/1/1.png",
-          "./images/Portfolio_1/kidswear/1/2.png",
-          "./images/Portfolio_1/kidswear/1/3.png"
+          "./images/portfolio/Kidswear/1/1.png",
+          "./images/portfolio/Kidswear/1/2.png",
+          "./images/portfolio/Kidswear/1/3.png"
         ]
       },
       {
-        inputImage: "./images/Portfolio_1/kidswear/2/Input.jpeg",
+        inputImage: "./images/portfolio/Kidswear/2/Input.jpeg",
         outputs: [
-          "./images/Portfolio_1/kidswear/2/1.png",
-          "./images/Portfolio_1/kidswear/2/2.png",
-          "./images/Portfolio_1/kidswear/2/3.jpeg"
+          "./images/portfolio/Kidswear/2/1.png",
+          "./images/portfolio/Kidswear/2/2.png",
+          "./images/portfolio/Kidswear/2/3.jpeg"
         ]
       },
       {
-        inputImage: "./images/Portfolio_1/kidswear/3/Input.jpeg",
+        inputImage: "./images/portfolio/Kidswear/3/Input.jpeg",
         outputs: [
-          "./images/Portfolio_1/kidswear/3/1.png",
-          "./images/Portfolio_1/kidswear/3/2.png",
-          "./images/Portfolio_1/kidswear/3/3.png"
-        ]
-      },
-      {
-        inputImage: "./images/Portfolio_1/kidswear/4/Input.jpeg",
-        outputs: [
-          "./images/Portfolio_1/kidswear/4/1.jpeg",
-          "./images/Portfolio_1/kidswear/4/2.jpeg"
+          "./images/portfolio/Kidswear/3/1.png",
+          "./images/portfolio/Kidswear/3/2.png",
+          "./images/portfolio/Kidswear/3/3.png"
         ]
       }
     ],
     menswear: [
       {
-        inputImage: "./images/Portfolio_1/menswear/1/Input.jpg",
+        inputImage: "./images/portfolio/Menswear/1/Input.jpg",
         outputs: [
-          "./images/Portfolio_1/menswear/1/1.jpg",
-          "./images/Portfolio_1/menswear/1/2.jpg",
-          "./images/Portfolio_1/menswear/1/3.jpg"
+          "./images/portfolio/Menswear/1/1.jpg",
+          "./images/portfolio/Menswear/1/2.jpg",
+          "./images/portfolio/Menswear/1/3.jpg"
         ]
       },
       {
-        inputImage: "./images/Portfolio_1/menswear/2/Input.jpeg",
+        inputImage: "./images/portfolio/Menswear/2/Input.jpeg",
         outputs: [
-          "./images/Portfolio_1/menswear/2/1.jpg",
-          "./images/Portfolio_1/menswear/2/2.jpg",
-          "./images/Portfolio_1/menswear/2/3.jpg"
+          "./images/portfolio/Menswear/2/1.jpeg",
+          "./images/portfolio/Menswear/2/2.jpeg",
+          "./images/portfolio/Menswear/2/3.jpeg"
         ]
       },
       {
-        inputImage: "./images/Portfolio_1/menswear/3/Input.jpg",
+        inputImage: "./images/portfolio/Menswear/3/input.jpeg",
         outputs: [
-          "./images/Portfolio_1/menswear/3/1.png",
-          "./images/Portfolio_1/menswear/3/2.png",
-          "./images/Portfolio_1/menswear/3/3.png"
+          "./images/portfolio/Menswear/3/1.jpg",
+          "./images/portfolio/Menswear/3/2.jpg",
+          "./images/portfolio/Menswear/3/3.jpg"
         ]
       },
       {
-        inputImage: "./images/Portfolio_1/menswear/4/Input.jpg",
+        inputImage: "./images/portfolio/Menswear/4/Input.jpeg",
         outputs: [
-          "./images/Portfolio_1/menswear/4/1.jpg",
-          "./images/Portfolio_1/menswear/4/2.jpg",
-          "./images/Portfolio_1/menswear/4/3.jpeg"
+          "./images/portfolio/Menswear/4/1.jpg",
+          "./images/portfolio/Menswear/4/2.jpg",
+          "./images/portfolio/Menswear/4/3.jpg"
+        ]
+      },
+      {
+        inputImage: "./images/portfolio/Menswear/5/input.jpg",
+        outputs: [
+          "./images/portfolio/Menswear/5/1.png",
+          "./images/portfolio/Menswear/5/2.png",
+          "./images/portfolio/Menswear/5/3.png"
         ]
       }
     ],
     womenswear: [
       {
-        inputImage: "./images/Portfolio_1/womenswear/1/Input.jpeg",
+        inputImage: "./images/portfolio/Womenswear/1/Input.jpeg",
         outputs: [
-          "./images/Portfolio_1/womenswear/1/1.jpeg",
-          "./images/Portfolio_1/womenswear/1/2.jpeg",
-          "./images/Portfolio_1/womenswear/1/3.jpeg"
+          "./images/portfolio/Womenswear/1/1.jpeg",
+          "./images/portfolio/Womenswear/1/2.jpeg",
+          "./images/portfolio/Womenswear/1/3.jpeg"
         ]
       },
       {
-        inputImage: "./images/Portfolio_1/womenswear/2/Input.jpg",
+        inputImage: "./images/portfolio/Womenswear/2/Input.jpg",
         outputs: [
-          "./images/Portfolio_1/womenswear/2/1.jpg",
-          "./images/Portfolio_1/womenswear/2/2.jpg",
-          "./images/Portfolio_1/womenswear/2/3.jpg"
+          "./images/portfolio/Womenswear/2/1.jpg",
+          "./images/portfolio/Womenswear/2/2.jpg",
+          "./images/portfolio/Womenswear/2/3.jpg"
         ]
       },
       {
-        inputImage: "./images/Portfolio_1/womenswear/3/Input.jpg",
+        inputImage: "./images/portfolio/Womenswear/3/Input.jpg",
         outputs: [
-          "./images/Portfolio_1/womenswear/3/1.jpg",
-          "./images/Portfolio_1/womenswear/3/2.jpg",
-          "./images/Portfolio_1/womenswear/3/3.jpg",
-          "./images/Portfolio_1/womenswear/3/4.jpg"
+          "./images/portfolio/Womenswear/3/1.jpg",
+          "./images/portfolio/Womenswear/3/2.jpg",
+          "./images/portfolio/Womenswear/3/3.jpg"
         ]
       },
       {
-        inputImage: "./images/Portfolio_1/womenswear/4/Input.jpg",
+        inputImage: "./images/portfolio/Womenswear/4/Input.jpeg",
         outputs: [
-          "./images/Portfolio_1/womenswear/4/1.jpeg",
-          "./images/Portfolio_1/womenswear/4/2.jpeg",
-          "./images/Portfolio_1/womenswear/4/3.jpeg"
+          "./images/portfolio/Womenswear/4/1.jpeg",
+          "./images/portfolio/Womenswear/4/2.jpeg",
+          "./images/portfolio/Womenswear/4/3.jpeg"
         ]
       },
       {
-        inputImage: "./images/Portfolio_1/womenswear/5/Input.jpg",
+        inputImage: "./images/portfolio/Womenswear/5/Input.jpeg",
         outputs: [
-          "./images/Portfolio_1/womenswear/5/1.jpg",
-          "./images/Portfolio_1/womenswear/5/2.jpg",
-          "./images/Portfolio_1/womenswear/5/3.jpg"
+          "./images/portfolio/Womenswear/5/1.jpg",
+          "./images/portfolio/Womenswear/5/2.jpg",
+          "./images/portfolio/Womenswear/5/3.jpg"
         ]
       },
       {
-        inputImage: "./images/Portfolio_1/womenswear/6/Input.jpeg",
+        inputImage: "./images/portfolio/Womenswear/6/Input.jpeg",
         outputs: [
-          "./images/Portfolio_1/womenswear/6/1.jpg",
-          "./images/Portfolio_1/womenswear/6/2.jpg",
-          "./images/Portfolio_1/womenswear/6/3.jpg"
-        ]
-      },
-      {
-        inputImage: "./images/Portfolio_1/womenswear/7/Input.jpeg",
-        outputs: [
-          "./images/Portfolio_1/womenswear/7/1.jpg",
-          "./images/Portfolio_1/womenswear/7/2.jpg",
-          "./images/Portfolio_1/womenswear/7/3.jpg"
-        ]
-      },
-      {
-        inputImage: "./images/Portfolio_1/womenswear/8/Input.jpeg",
-        outputs: [
-          "./images/Portfolio_1/womenswear/8/1.jpg",
-          "./images/Portfolio_1/womenswear/8/2.jpg",
-          "./images/Portfolio_1/womenswear/8/3.jpg"
+          "./images/portfolio/Womenswear/6/1.jpg",
+          "./images/portfolio/Womenswear/6/2.jpg",
+          "./images/portfolio/Womenswear/6/3.jpg"
         ]
       }
+    ],
+    accessories: [
+      {
+        inputImage: "./images/portfolio/Accessories/Bags/1/Input.jpg",
+        outputs: ["./images/portfolio/Accessories/Bags/1/1.jpg"]
+      },
+      {
+        inputImage: "./images/portfolio/Accessories/Bags/2/Input.jpg",
+        outputs: ["./images/portfolio/Accessories/Bags/2/2.jpg"]
+      },
+      {
+        inputImage: "./images/portfolio/Accessories/Cap/Input.jpg",
+        outputs: ["./images/portfolio/Accessories/Cap/1.jpg"]
+      },
+      {
+        inputImage: "./images/portfolio/Accessories/Glasses/Input.jpg",
+        outputs: ["./images/portfolio/Accessories/Glasses/1.jpg"]
+      },
+      {
+        inputImage: "./images/portfolio/Accessories/Home%20decor/Input.jpg",
+        outputs: ["./images/portfolio/Accessories/Home%20decor/1.jpg"]
+      },
+      {
+        inputImage: "./images/portfolio/Accessories/jewels/1/Input.webp",
+        outputs: ["./images/portfolio/Accessories/jewels/1/1.png"]
+      },
+      {
+        inputImage: "./images/portfolio/Accessories/jewels/2/Input.jpg",
+        outputs: ["./images/portfolio/Accessories/jewels/2/1.png"]
+      },
+      {
+        inputImage: "./images/portfolio/Accessories/jewels/3/Input.webp",
+        outputs: ["./images/portfolio/Accessories/jewels/3/1.png"]
+      },
+      {
+        inputImage: "./images/portfolio/Accessories/jewels/4/Input.jpg",
+        outputs: ["./images/portfolio/Accessories/jewels/4/1.jpg"]
+      },
+      {
+        inputImage: "./images/portfolio/Accessories/jewels/5/Input.jpg",
+        outputs: ["./images/portfolio/Accessories/jewels/5/1.png"]
+      },
+      {
+        inputImage: "./images/portfolio/Accessories/Watch/Input.jpg",
+        outputs: ["./images/portfolio/Accessories/Watch/1.jpg"]
+      }
+    ],
+    lingerie: [
+      {
+        inputImage: "./images/portfolio/Lingerie/1/Input.jpg",
+        outputs: [
+          "./images/portfolio/Lingerie/1/1.png",
+          "./images/portfolio/Lingerie/1/2.png",
+          "./images/portfolio/Lingerie/1/3.png",
+        ]
+      }
+    ],
+    productswap: [
+      {
+        inputImage: "./images/portfolio/Productswap/1/Input.jpg",
+        outputs: [
+          "./images/portfolio/Productswap/1/1.jpg",
+          "./images/portfolio/Productswap/1/2.jpg",
+        ]
+      },
+      {
+        inputImage: "./images/portfolio/Productswap/2/Input.jpg",
+        outputs: [
+          "./images/portfolio/Productswap/2/1.jpg",
+          "./images/portfolio/Productswap/2/2.jpg",
+        ]
+      },
+      {
+        inputImage: "./images/portfolio/Productswap/3/Input.jpg",
+        outputs: [
+          "./images/portfolio/Productswap/3/1.jpg",
+          "./images/portfolio/Productswap/3/2.jpg",
+        ]
+      },
+      {
+        inputImage: "./images/portfolio/Productswap/4/Input.jpg",
+        outputs: [
+          "./images/portfolio/Productswap/4/1.jpg",
+          "./images/portfolio/Productswap/4/2.jpg",
+        ]
+      },
+      {
+        inputImage: "./images/portfolio/Productswap/5/Input.jpg",
+        outputs: [
+          "./images/portfolio/Productswap/5/1.jpg",
+          "./images/portfolio/Productswap/5/2.jpg",
+        ]
+      },
+      {
+        inputImage: "./images/portfolio/Productswap/6/Input.jpg",
+        outputs: [
+          "./images/portfolio/Productswap/6/1.jpg",
+          "./images/portfolio/Productswap/6/2.jpg",
+        ]
+      },
+      {
+        inputImage: "./images/portfolio/Productswap/7/Input.jpg",
+        outputs: [
+          "./images/portfolio/Productswap/7/1.jpg",
+          "./images/portfolio/Productswap/7/2.jpg",
+        ]
+      },
     ]
-};
+  };
 
   // Open modal when category is clicked
   document.querySelectorAll('.category-card').forEach(card => {
@@ -325,3 +416,83 @@
     closePortfolioModal();
     e.preventDefault();
   });
+
+  (function() {
+    const tabs  = document.querySelectorAll('.ba-tab');
+    const pairs = document.querySelectorAll('.ba-pair');
+
+    /* ── Tab switching ── */
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        const idx = +tab.dataset.pair;
+        tabs.forEach(t => t.classList.remove('active'));
+        pairs.forEach(p => p.classList.remove('active'));
+        tab.classList.add('active');
+        pairs[idx].classList.add('active');
+      });
+    });
+
+    /* ── Manual drag for each pair ── */
+    pairs.forEach(pair => {
+      const stage   = document.getElementById('baStage');
+      const divider = pair.querySelector('.ba-divider');
+      const handle  = pair.querySelector('.ba-handle');
+      const imgAfter     = pair.querySelector('.ba-img-after');
+      const phAfter      = pair.querySelector('.ba-placeholder-after');
+
+      let dragging = false;
+
+      function clamp(v, lo, hi) { return Math.min(Math.max(v, lo), hi); }
+
+      function applyPos(x) {
+        const rect = stage.getBoundingClientRect();
+        const pct  = clamp(((x - rect.left) / rect.width) * 100, 2, 98);
+        const p    = pct.toFixed(2) + '%';
+
+        divider.style.left = p;
+        handle.style.left  = p;
+        if (imgAfter)  imgAfter.style.clipPath  = `inset(0 ${(100-pct).toFixed(2)}% 0 0)`;
+        if (phAfter)   phAfter.style.clipPath   = `inset(0 ${(100-pct).toFixed(2)}% 0 0)`;
+      }
+
+      handle.addEventListener('mousedown', e => {
+        if (!pair.classList.contains('active')) return;
+        dragging = true;
+        pair.classList.add('dragging');
+        e.preventDefault();
+      });
+      handle.addEventListener('touchstart', e => {
+        if (!pair.classList.contains('active')) return;
+        dragging = true;
+        pair.classList.add('dragging');
+      }, { passive: true });
+
+      document.addEventListener('mousemove', e => {
+        if (!dragging) return;
+        applyPos(e.clientX);
+      });
+      document.addEventListener('touchmove', e => {
+        if (!dragging) return;
+        applyPos(e.touches[0].clientX);
+      }, { passive: true });
+      document.addEventListener('mouseup', () => {
+        if (!dragging) return;
+        dragging = false;
+        pair.classList.remove('dragging');
+      });
+      document.addEventListener('touchend', () => {
+        if (!dragging) return;
+        dragging = false;
+        pair.classList.remove('dragging');
+      });
+
+      /* click on stage to jump */
+      stage.addEventListener('click', e => {
+        if (!pair.classList.contains('active')) return;
+        if (e.target === handle) return;
+        pair.classList.add('dragging');
+        applyPos(e.clientX);
+        setTimeout(() => pair.classList.remove('dragging'), 80);
+      });
+    });
+  })();
