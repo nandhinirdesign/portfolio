@@ -295,7 +295,7 @@
         <div class="portfolio-grid reveal" id="portfolio-grid">
             <div class="portfolio-card category-card" data-category="menswear">
                 <div class="category-card-bg">
-                    <img class="category-card-bg-img" src="./images/portfolio/Menswear/cover.jpeg" alt="" width="960" height="1200" loading="lazy" decoding="async" fetchpriority="low" />
+                    <img class="category-card-bg-img" src="./images/portfolio/menswear/cover.jpeg" alt="" width="960" height="1200" loading="lazy" decoding="async" fetchpriority="low" />
                 </div>
                 <div class="category-card-scrim" aria-hidden="true"></div>
                 <div class="category-card-caption">
@@ -304,7 +304,7 @@
             </div>
             <div class="portfolio-card category-card" data-category="womenswear">
                 <div class="category-card-bg">
-                    <img class="category-card-bg-img" src="./images/portfolio/Womenswear/cover.jpeg" alt="" width="960" height="1200" loading="lazy" decoding="async" fetchpriority="low" />
+                    <img class="category-card-bg-img" src="./images/portfolio/womenswear/cover.jpeg" alt="" width="960" height="1200" loading="lazy" decoding="async" fetchpriority="low" />
                 </div>
                 <div class="category-card-scrim" aria-hidden="true"></div>
                 <div class="category-card-caption">
@@ -313,7 +313,7 @@
             </div>
             <div class="portfolio-card category-card" data-category="kidswear">
                 <div class="category-card-bg">
-                    <img class="category-card-bg-img" src="./images/portfolio/Kidswear/cover.png" alt="" width="960" height="1200" loading="lazy" decoding="async" fetchpriority="low" />
+                    <img class="category-card-bg-img" src="./images/portfolio/kidswear/cover.png" alt="" width="960" height="1200" loading="lazy" decoding="async" fetchpriority="low" />
                 </div>
                 <div class="category-card-scrim" aria-hidden="true"></div>
                 <div class="category-card-caption">
@@ -322,7 +322,7 @@
             </div>
             <div class="portfolio-card category-card" data-category="accessories">
                 <div class="category-card-bg">
-                    <img class="category-card-bg-img" src="./images/portfolio/Accessories/cover.jpeg" alt="" width="960" height="1200" loading="lazy" decoding="async" fetchpriority="low" />
+                    <img class="category-card-bg-img" src="./images/portfolio/accessories/cover.jpeg" alt="" width="960" height="1200" loading="lazy" decoding="async" fetchpriority="low" />
                 </div>
                 <div class="category-card-scrim" aria-hidden="true"></div>
                 <div class="category-card-caption">
@@ -331,7 +331,7 @@
             </div>
             <div class="portfolio-card category-card" data-category="lingerie">
                 <div class="category-card-bg">
-                    <img class="category-card-bg-img" src="./images/portfolio/Lingerie/cover.png" alt="" width="960" height="1200" loading="lazy" decoding="async" fetchpriority="low" />
+                    <img class="category-card-bg-img" src="./images/portfolio/lingerie/cover.png" alt="" width="960" height="1200" loading="lazy" decoding="async" fetchpriority="low" />
                 </div>
                 <div class="category-card-scrim" aria-hidden="true"></div>
                 <div class="category-card-caption">
@@ -340,7 +340,7 @@
             </div>
             <div class="portfolio-card category-card" data-category="productswap">
                 <div class="category-card-bg">
-                    <img class="category-card-bg-img" src="./images/portfolio/Productswap/1/1.jpg" alt="" width="960" height="1200" loading="lazy" decoding="async" fetchpriority="low" />
+                    <img class="category-card-bg-img" src="./images/portfolio/productswap/1/1.jpg" alt="" width="960" height="1200" loading="lazy" decoding="async" fetchpriority="low" />
                 </div>
                 <div class="category-card-scrim" aria-hidden="true"></div>
                 <div class="category-card-caption">
@@ -365,6 +365,17 @@
                 <button type="button" class="modal-image-lightbox-close" aria-label="Close preview">&times;</button>
                 <img alt="" class="modal-image-lightbox-img" decoding="async" fetchpriority="high">
             </div>
+        </div>
+    </div>
+
+    <!-- VIDEO MODAL -->
+    <div id="video-modal" class="modal">
+        <div class="modal-content video-modal-content">
+            <span class="close-modal" role="button" tabindex="0" aria-label="Close video">&times;</span>
+            <video id="modal-video" controls autoplay>
+                <source src="" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
         </div>
     </div>
 
@@ -491,6 +502,51 @@
         <p class="ba-hint">Hover to pause · Drag handle to explore manually</p>
       
       </section>
+
+
+    <!-- CINEMATIC VIDEO GENERATION -->
+    <section class="cinematic-section" id="cinematic">
+        <div class="section-label reveal">Cinematic</div>
+        <h2 class="section-title reveal">Video <em>Generation</em></h2>
+        <div class="cinematic-grid reveal">
+            <div class="video-card" data-video="./videos/Cosmetics.mp4">
+                <video class="video-thumb" muted preload="metadata">
+                    <source src="./videos/Cosmetics.mp4" type="video/mp4">
+                </video>
+                <p class="video-desc">AI-generated cinematic video showcasing cosmetic products with dynamic lighting and professional presentation.</p>
+            </div>
+            <div class="video-card" data-video="./videos/Garment.mp4">
+                <video class="video-thumb" muted preload="metadata">
+                    <source src="./videos/Garment.mp4" type="video/mp4">
+                </video>
+                <p class="video-desc">Fashion garment presentation with fluid motion, high detail, and elegant styling.</p>
+            </div>
+            <div class="video-card" data-video="./videos/Ring holder.mp4">
+                <video class="video-thumb" muted preload="metadata">
+                    <source src="./videos/Ring holder.mp4" type="video/mp4">
+                </video>
+                <p class="video-desc">Elegant jewelry display video with cinematic angles and sophisticated lighting.</p>
+            </div>
+            <div class="video-card" data-video="./videos/saree-reel.mp4">
+                <video class="video-thumb" muted preload="metadata">
+                    <source src="./videos/saree-reel.mp4" type="video/mp4">
+                </video>
+                <p class="video-desc">Traditional saree showcase with cultural storytelling and vibrant visuals.</p>
+            </div>
+            <div class="video-card" data-video="./videos/Shoe.mp4">
+                <video class="video-thumb" muted preload="metadata">
+                    <source src="./videos/Shoe.mp4" type="video/mp4">
+                </video>
+                <p class="video-desc">Footwear highlight reel with modern aesthetics and dynamic camera work.</p>
+            </div>
+            <div class="video-card" data-video="./videos/Watch 1.mp4">
+                <video class="video-thumb" muted preload="metadata">
+                    <source src="./videos/Watch 1.mp4" type="video/mp4">
+                </video>
+                <p class="video-desc">Luxury watch presentation with time-lapse effects and premium branding.</p>
+            </div>
+        </div>
+    </section>
 
 
     <!-- BRANDS -->
@@ -634,7 +690,7 @@
     </section>
 
     <footer>
-        <a href="#" class="footer-logo">Nandhini R</a>
+        <a href="#" class="footer-logo">Nandhini Raja</a>
         <p>© 2026 Nandhini Raja · Image Editor &amp; AI Visual Creator · Chennai</p>
     </footer>
 
