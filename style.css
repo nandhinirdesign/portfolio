@@ -1562,3 +1562,46 @@
     }
     footer { flex-direction: column; gap: 0.5rem; text-align: center; }
   }
+
+  @media (max-width: 650px) {
+    .contact {
+      padding: 4rem 1rem;
+    }
+    .contact::before,
+    .contact::after {
+      display: none;
+    }
+    .contact-inner {
+      grid-template-columns: 1fr;
+      gap: 1.75rem;
+    }
+    .contact-heading {
+      font-size: clamp(1.8rem, 10vw, 2.8rem);
+    }
+    .contact-sub {
+      font-size: 0.9rem;
+      max-width: 100%;
+    }
+    .contact-items {
+      gap: 0.85rem;
+    }
+    .contact-item {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.75rem;
+      padding: 1rem 1rem;
+    }
+    .contact-item-icon {
+      width: 34px;
+      height: 34px;
+      font-size: 1rem;
+    }
+    .contact-item-label {
+      font-size: 0.65rem;
+      letter-spacing: 0.12em;
+      margin-bottom: 0;
+    }
+    .contact-item-value {
+      font-size: 0.88rem;
+    }
+  }
