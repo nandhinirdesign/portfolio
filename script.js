@@ -61,7 +61,7 @@
       </div>`;
     }
     return `<div class="modal-product-input-frame modal-product-input-frame--empty">
-      <p class="modal-product-input-placeholder">No reference added</p>
+      <p class="modal-product-input-placeholder">No input added</p>
     </div>`;
   }
 
@@ -343,11 +343,11 @@
             </header>
             <div class="modal-product-body">
               <div class="modal-product-col modal-product-col--reference">
-                <p class="modal-product-col-label">Reference</p>
+                <p class="modal-product-col-label">Input</p>
                 ${renderModalInputColumn(item)}
               </div>
               <div class="modal-product-col modal-product-col--results">
-                <p class="modal-product-col-label">Results</p>
+                <p class="modal-product-col-label">Output</p>
                 <div class="modal-product-output-scroll" role="region" aria-label="Result images, scroll horizontally" tabindex="0">
                   <div class="modal-product-output-track">
                     ${outputs.map((src) => `
